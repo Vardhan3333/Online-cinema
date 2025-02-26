@@ -1,0 +1,38 @@
+
+/* Navbar styles */
+.navbar {
+    background-color: #343a40; /* Background color for the navbar */
+  }
+  
+  .navbar-brand {
+    font-size: 24px; /* Font size for the brand text */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; /* Text color for navbar links */
+    margin-right: 10px; /* Spacing between navbar links */
+    font-size: 16px; /* Font size for navbar links */
+  }
+  
+  /* Admin page styles */
+  .admin-buttons {
+    display: flex;
+    justify-content: center; 
+      align-items: center; 
+    margin-top: 20px; /* Margin from the top */
+  }
+  
+  .admin-button {
+    background-color: #007bff; /* Background color for buttons */
+    color: #fff; /* Text color for buttons */
+    padding: 10px 20px; /* Padding for buttons */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    font-size: 18px; /* Font size for buttons */
+    margin: 10px; /* Spacing between buttons */
+  }
+  
+  .admin-button:hover {
+    background-color: #0056b3; /* Hover background color */
+  }
+  

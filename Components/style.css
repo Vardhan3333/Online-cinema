@@ -1,0 +1,87 @@
+/* TheaterLayout.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+  } */
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .screen {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin at the bottom of the screen */
+  }
+  
+  .section-container {
+    display: flex;
+    flex-direction: column; /* Sections are stacked vertically */
+    align-items: center;
+    margin-top: 20px; /* Add space between sections */
+  }
+  
+  .level {
+    display: flex;
+    flex-direction: column; /* Levels are stacked vertically */
+    align-items: center;
+    margin-top: 10px; /* Add space between levels */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  
+  .seat {
+    background-color: #ccc;
+    border: 1px solid #999;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .seat:hover {
+    background-color: #999;
+  }
+  
+  .selected {
+    background-color: green;
+    color: #fff;
+    cursor: not-allowed;
+  }
+
+  /* TheaterLayout.css */
+/* ... (your existing styles) */
+
+.theater-container {
+    max-height: 80vh; /* Set a maximum height for the theater container */
+    overflow-y: auto; /* Enable vertical scrolling when needed */
+  }
+  
+  

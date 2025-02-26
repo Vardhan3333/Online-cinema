@@ -1,0 +1,26 @@
+/* Theater.css */
+
+.theater {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .seat {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Add more styling as needed */
+  
